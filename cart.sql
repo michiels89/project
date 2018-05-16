@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Gegenereerd op: 15 mei 2018 om 21:39
+-- Gegenereerd op: 16 mei 2018 om 21:31
 -- Serverversie: 10.1.28-MariaDB
 -- PHP-versie: 7.1.11
 
@@ -43,9 +43,9 @@ INSERT INTO `products` (`id`, `name`, `image`, `price`) VALUES
 (1, 'phone1', 'download1.jpg', 199.99),
 (2, 'phone2', 'download2.jpg', 156.56),
 (3, 'phone3', 'download3.jpg', 169.45),
-(4, 'phone1', 'download1.jpg', 199.99),
-(5, 'phone2', 'download2.jpg', 156.56),
-(6, 'phone3', 'download3.jpg', 255.33);
+(4, 'phone4', 'download4.jpg', 199.99),
+(5, 'phone5', 'download2.jpg', 156.56),
+(6, 'phone6', 'download3.jpg', 255.33);
 
 --
 -- Indexen voor geëxporteerde tabellen
