@@ -1,4 +1,5 @@
 <?php
+//require_once 'vendor/autoload.php';
 require_once'Product.php';
 
     $productList = new Product;
@@ -19,8 +20,9 @@ require_once'Product.php';
     <title>Shop</title>
 </head>
 <body>
+
   <header>
-   <a  class="btn btn-info" href="shoppingCart.php"><i class="fa fa-shopping-cart"></i></a>
+   <a  class="btn btn-info" href="cartView.php"><i class="fa fa-shopping-cart"></i></a>
    </header>
     <div class="container">
        <h1 class="text-center">Shop</h1><br><br>

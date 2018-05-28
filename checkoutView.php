@@ -7,19 +7,18 @@
     <meta charset="UTF-8">
     <title>checkout address</title>
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<!--    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 <body>
 
 <div class="container">
 	<div class="row">
-		 <form class="form-horizontal">
-            <fieldset>
-                <!-- Address form -->
-         
-                <h2>Address</h2>
-         
+      <div class="col-sm-4 col-md-3">
+         <h2 class="text-center">Your Details</h2>
+                  
                 <!-- firstname input-->
                 <div class="control-group">
                     <label class="control-label">First Name</label>
@@ -46,6 +45,14 @@
                         <p class="help-block"></p>
                     </div>
                 </div>
+     </div>
+      <div class="col-sm-4 col-md-3">
+		 <form class="form-horizontal">
+            <fieldset>
+                <!-- Address form -->
+         
+                <h2 class="text-center">Shipping Address</h2>
+
                 <!-- address input-->
                 <div class="control-group">
                     <label class="control-label">Address</label>
@@ -331,6 +338,8 @@
                 </div>
             </fieldset>
         </form>
+        </div>
+         <div class="col-sm-4 col-md-3"></div>
 	</div>
 </div>
     

@@ -16,7 +16,7 @@ session_start();
 <body>
     <div class="container">
        <h1 class="text-center">Shopping Cart</h1><br><br>
-       <div class="col-sm-4 col-md-3">
+      
        <div class="clear"></div>
        <br>
        <div class="table-responsive">
@@ -74,7 +74,7 @@ session_start();
            </table>
        </div>
         <a href="index.php" class= "btn btn-info">Back</a>
-        </div>
+      
     </div>
 </body>
 </html>
