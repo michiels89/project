@@ -35,12 +35,12 @@ require_once'Product.php';
         </div>
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>Cart (0)</a></li>
+                <li><a href="cartView.php"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>Cart (0)</a></li>
             </ul>
         </div>
     </div>
 </nav>
-   <a  class="btn btn-info" href="cartView.php"><i class="fa fa-shopping-cart"></i></a>
+<!--   <a  class="btn btn-info" href="cartView.php"><i class="fa fa-shopping-cart"></i></a>-->
    </header>
     <div class="container">
        <h1 class="text-center">Shop</h1><br><br>
